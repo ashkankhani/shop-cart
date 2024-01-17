@@ -1,4 +1,6 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Project Preview
+
+<img width="1280" alt="shop-cart" src="https://github.com/ashkankhani/shop-cart/assets/21294321/cf822a18-d7b5-4d67-ba0d-c11a0dc715c5">
 
 ## Getting Started
 
