@@ -1,27 +1,27 @@
 const productList = [
     {
         id: '1',
-        title : 'ایرپاد',
+        title : 'اسپرسو',
         price : 10000,
-        image : '/images/airpods.jpg'
+        image : '/images/spresso.JPG'
     },
     {
         id: '2',
-        title : 'هدفون',
+        title : 'لاته',
         price : 999999,
-        image : '/images/headphone.jpg'
+        image : '/images/latte.JPG'
     },
     {
         id: '3',
-        title : 'آیپد',
+        title : 'قهوه ترک',
         price : 858558,
-        image : '/images/ipad.jpg'
+        image : '/images/turk_coffee.JPG'
     },
     {
         id: '4',
-        title : 'مک بوک',
+        title : 'چای',
         price : 45666,
-        image : '/images/macbook.jpg'
+        image : '/images/tea.jpg'
     },
 
 ]

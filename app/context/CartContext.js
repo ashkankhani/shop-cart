@@ -51,7 +51,6 @@ export const CartProvider = ({children}) => {
 
         cartProducts.forEach(item => {
             const productData = getProductData(item.id);
-
             totalAmount += productData.price * item.quantity;
         })
 

@@ -8,12 +8,11 @@ const Cart = () => {
     const cart = useContext(CartContext);
 
     const total = cart.items.reduce((sum , product) => sum + product.quantity , 0);
-    console.log(total)
     return (
         <>
             <button 
                 onClick={() => setShow(true)}
-                className="px-3 py-2 rounded-md border text-white hover:bg-gray-500 cursor-pointer">
+                className="px-3 py-2 rounded-md border-2  border-black text-black hover:bg-gray-500 hover:text-white cursor-pointer">
                     <span>سبد خرید  </span>
                     {total>0 && <span>({total})</span>}
             </button>

@@ -3,7 +3,7 @@ import AddToCart from './AddToCart';
 
 const ProductItem = ({product}) => {
     return (
-        <div className='flex flex-col items-center px-2 pt-1 pb-4 bg-slate-800 rounded-md transition ease-in-out duration-300 hover:scale-105'>
+        <div className='flex flex-col items-center px-2 pt-1 pb-4 bg-orange-50 rounded-md transition ease-in-out duration-300 hover:scale-105'>
             <div className='relative w-full h-40 rounded-md overflow-hidden'>
                 <Image
                     src={product.image}
@@ -12,7 +12,7 @@ const ProductItem = ({product}) => {
                     className='object-cover'
                 />
             </div>
-            <div className='text-white'>
+            <div className='text-black'>
                 <h3 className="pt-4 font-bold text-lg">{product.title}</h3>
                 <p className='flex justify-center gap-2'>
                     <span>تومان</span>

@@ -23,10 +23,10 @@ const AddToCart = ({id}) => {
                 </div> 
                 <button 
                     onClick={() => cart.deleteFromCart(id)}
-                    className="mt-3 px-3 py-2 border border-white rounded-md hover:bg-white hover:text-black">حذف از سبد خرید</button>
+                    className="mt-2 px-3 py-2 border-2 border-black rounded-md hover:bg-gray-500 hover:text-white cursor-pointer text-black">حذف از سبد خرید</button>
             </>: 
             (<button 
-                className="mt-2 px-3 py-2 border-2 border-white rounded-md hover:bg-white hover:text-black cursor-pointer text-white"
+                className="mt-2 px-3 py-2 border-2 border-black rounded-md hover:bg-gray-500 hover:text-white cursor-pointer text-black"
                 onClick={() => cart.addItemToCart(id)}>افزودن به سبد خرید
             </button>)}
         </div>

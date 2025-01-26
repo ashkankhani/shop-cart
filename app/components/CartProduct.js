@@ -12,7 +12,7 @@ const CartProduct = ({id , quantity}) => {
                 <p>قیمت: {productData.price * quantity}</p>
             </div>
             <button 
-                className='py-2 px-3 border rounded-md mt-5 hover:bg-white hover:text-black'
+                className='py-2 px-3 border-2 border-black rounded-md mt-5 hover:bg-gray-500 hover:text-white'
                 onClick={() => cart.deleteFromCart(id)}>حذف</button>
         </div>
     )
